@@ -1,0 +1,23 @@
+{
+  "platemillApp": {
+    "videoOfEvent": {
+      "home": {
+        "title": "Video Of Events",
+        "createLabel": "Create a new Video Of Event",
+        "createOrEditLabel": "Create or edit a Video Of Event"
+      },
+      "created": "A new Video Of Event is created with identifier {{ param }}",
+      "updated": "A Video Of Event is updated with identifier {{ param }}",
+      "deleted": "A Video Of Event is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Video Of Event {{ id }}?"
+      },
+      "detail": {
+        "title": "Video Of Event"
+      },
+      "videoDate": "Video Date",
+      "videoFile": "Video File",
+      "eventPM": "Event PM"
+    }
+  }
+}

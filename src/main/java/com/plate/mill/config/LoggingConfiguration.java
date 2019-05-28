@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.HashMap;
 import java.util.Map;
 
-import static io.github.jhipster.config.logging.LoggingUtils.*;
+//import static io.github.jhipster.config.logging.LoggingUtils.*;
 
 /*
  * Configures the console and Logstash log appenders from the app properties
@@ -35,16 +35,16 @@ public class LoggingConfiguration {
         JHipsterProperties.Logging.Logstash logstashProperties = loggingProperties.getLogstash();
 
         if (loggingProperties.isUseJsonFormat()) {
-            addJsonConsoleAppender(context, customFields);
+    //        addJsonConsoleAppender(context, customFields);
         }
         if (logstashProperties.isEnabled()) {
-            addLogstashTcpSocketAppender(context, customFields, logstashProperties);
+    //        addLogstashTcpSocketAppender(context, customFields, logstashProperties);
         }
         if (loggingProperties.isUseJsonFormat() || logstashProperties.isEnabled()) {
-            addContextListener(context, customFields, loggingProperties);
+   //         addContextListener(context, customFields, loggingProperties);
         }
         if (jHipsterProperties.getMetrics().getLogs().isEnabled()) {
-            setMetricsMarkerLogbackFilter(context, loggingProperties.isUseJsonFormat());
+  //          setMetricsMarkerLogbackFilter(context, loggingProperties.isUseJsonFormat());
         }
     }
 }

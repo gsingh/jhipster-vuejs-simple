@@ -1,0 +1,23 @@
+{
+  "platemillApp": {
+    "videoOfEvent": {
+      "home": {
+        "title": "VideoOfEvents",
+        "createLabel": "नया Video Of Event बनाएँ",
+        "createOrEditLabel": "Video Of Event बनाएँ या संपादित करें"
+      },
+      "created": "एक नया Video Of Event [identifier: {{ param }}] तैयार है",
+      "updated": "एक Video Of Event [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Video Of Event [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Video Of Event [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Video Of Event"
+      },
+      "videoDate": "Video Date",
+      "videoFile": "Video File",
+      "eventPM": "Event PM"
+    }
+  }
+}
