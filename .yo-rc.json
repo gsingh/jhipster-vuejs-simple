@@ -1,0 +1,53 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.plate.mill",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.0.1",
+    "applicationType": "monolith",
+    "baseName": "platemill",
+    "packageName": "com.plate.mill",
+    "packageFolder": "com/plate/mill",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTM1OGY5MTE4YmNhOWU1MzA5MTM5N2I2YWU2MjRlYWUwM2U0OTBhZmJkM2YxODU5YzExODg4YTg5M2VjZjVlZmMwZTA0ZjVlNWZhZWVmNTRkYjFjMWQ2NjgyNTRhY2VhZmUyNjBmMDMzNGM0M2YyMzBjYjEwZDcyNDhmZTIyOTc=",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.0.0"
+      }
+    ],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en", "hi"],
+    "blueprint": "generator-jhipster-vuejs",
+    "blueprintVersion": "1.0.0"
+  },
+  "generator-jhipster-vuejs": {
+    "jhipsterVersion": "6.0.1",
+    "applicationType": "monolith",
+    "baseName": "platemill",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "vue",
+    "clientTheme": "superhero",
+    "clientThemeVariant": "primary"
+  }
+}
